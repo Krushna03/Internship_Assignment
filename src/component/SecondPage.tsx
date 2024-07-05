@@ -53,9 +53,7 @@ const SecondPage: React.FC = () => {
           <div style={{ height: 600, width: '100%' }}>
             <DataGrid 
               rows={posts} 
-              columns={columns} 
-              pageSize={10} 
-              rowsPerPageOptions={[10]} 
+              columns={columns}  
             />
           </div>
         )}
